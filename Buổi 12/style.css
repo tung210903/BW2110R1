@@ -1,0 +1,40 @@
+img{
+    width: 100%;
+}
+/*
+body>div => chỉ áp dụng cho các div con của 
+body 
+*/
+body > div {
+    float: left;
+    width: 16%;
+   /* margin-left:2% ;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;*/
+    margin: 20px 2% 20px 2%;
+    transition-duration: 2S;
+    opacity: 0.7;
+}
+h1{
+    text-align: center;
+}
+/* h1 + div => chỉ áp dụng cho 1 thẻ div
+ duy nhất dưới thẻ h1 */
+h1 +div{
+    background-color: aqua;
+}
+
+/* h1 ~ div => áp dụng cho tất cả div 
+nằm bên dưới h */
+h1~div{
+    background-color: aqua;
+}
+
+ body > div:hover{ 
+    background-color: yellow;
+} 
+ /* body > div:active{
+    background-color: yellow;
+}  */
+
