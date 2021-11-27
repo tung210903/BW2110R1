@@ -1,0 +1,135 @@
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    background-color: turquoise;
+}
+
+article{
+    width: 70%;
+    height: 60%;
+    float: left;
+    background-color: lightcoral;
+}
+
+aside{
+    width: 30%;
+    height: 60%;
+    float: left;
+    background-color: lime;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: violet;
+    float: left;
+}
+
+section{
+    height: 15%;
+    width: 30%;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* TABLET */
+@media screen and (max-width: 1000px) and (min-width:768px) {
+    html , body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    header {
+        width: 100%;
+        height: 15%;
+        background-color: turquoise;
+    }
+    
+    article{
+        width: 100%;
+        height: 55%;
+        
+        background-color: lightcoral;
+    }
+    
+    aside{
+        width: 100%;
+        height: 20%;
+       
+        background-color: lime;
+    }
+    
+    footer{
+        width: 100%;
+        height: 10%;
+        background-color: violet;
+        
+    }
+    
+    section{
+        height: 10%;
+        width: 20%;
+        background-color: red;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* MOBLIE */
+@media screen and (max-width: 767px)    {
+    html , body{
+        height: 100%;
+        width: 100%;
+    }
+    
+    header {
+        width: 100%;
+        height: 15%;
+        background-color: turquoise;
+    }
+    
+    article{
+        width: 100%;
+        height: 55%;
+        background-color: lightcoral;
+    }
+    
+    aside{
+        width: 100%;
+        height: 18%;
+        background-color: lime;
+    }
+    
+    footer{
+        width: 100%;
+        height: 12%;
+        background-color: violet;
+      
+    }
+    
+    section{
+        height: 8%;
+        width: 100%;
+        background-color: red;
+        margin-bottom: 10px;
+    }
+}
