@@ -1,0 +1,91 @@
+body , html {
+    width: 1000px;
+    height:600px ;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: white;
+    margin: auto ;
+    display: grid;
+
+    grid-template-rows: 25% 25% 25% 25% ;
+    grid-template-columns: 15% 10% 20% 40% 15%;
+    
+
+    grid-template-areas: 
+    "i1 i2 i2 i3 i4"
+    "i5 i2 i2 i3 i6"
+    "i7 i8 i9 i3 i10"
+    "i11 i11 i11 i3 i12";
+
+    grid-gap: 3px 3px;
+
+}
+
+
+
+#item-1 {
+    background-color: darkred;
+    grid-area:i1 ;
+    
+}
+
+#item-2 {
+    background-color: deeppink;
+    grid-area:i2 ;
+}
+
+#item-3 {
+    background-color: indianred;
+    grid-area:i3 ;
+}
+
+#item-4 {
+    background-color: yellow;
+    grid-area:i4 ;
+}
+
+#item-5 {
+    background-color: seagreen;
+    grid-area:i5 ;
+}
+
+#item-6 {
+    background-color: steelblue;
+    grid-area:i6 ;
+}
+
+#item-7 {
+    background-color: olivedrab;
+    grid-area:i7 ;
+}
+
+#item-8 {
+    background-color: green;
+    grid-area:i8 ;
+    
+}
+
+#item-9 {
+    background-color: aqua;
+    grid-area:i9 ;
+}
+
+#item-10 {
+    background-color: aquamarine;
+    grid-area:i10 ;
+}
+
+#item-11 {
+    background-color: mediumslateblue;
+    grid-area:i11 ;
+}
+
+#item-12 {
+    background-color: red;
+    grid-area:i12 ;
+}
+
