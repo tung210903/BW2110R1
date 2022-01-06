@@ -1,0 +1,152 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container_swap .div_left {
+  width: 50px;
+  float: left;
+  padding-left: 300px;
+  padding-top: 30px;
+}
+
+.container_swap .div_center {
+  width: 50px;
+  float: left;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.container_swap .div_right {
+  width: 50px;
+  float: left;
+  padding-top: 30px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  background-color: #e6e6e0;
+  margin: 5px 100px 5px 100px;
+  padding: 8px 0 8px 15px;
+}
+
+#product {
+  border-bottom: 2px solid #EAE9DB;
+  padding-bottom: 3%;
+}
+
+.product-img {
+  width: 900px;
+  padding-top: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.product-banner {
+  padding-top: 50px;
+  padding-right: 200px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.checked {
+  color: #2D63B3;
+}
+
+.choose-product {
+  width: 5%;
+}
+
+#color-product {
+  padding: 20px 0 20px 0;
+  margin-right: 20%;
+  border-bottom: 2px solid #EAE9DB;
+  border-top: 2px solid #EAE9DB;
+}
+
+.product-icon {
+  text-align: center;
+}
+
+#first-icon {
+  padding-top: 5%;
+  border-top: 2px solid #EAE9DB;
+  margin-right: 20%;
+  margin-bottom: -950px;
+}
+
+#second-icon {
+  margin-bottom: -950px;
+}
+
+#product-details {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+h4 {
+  margin-bottom: 4%;
+}
+
+.slogan {
+  margin: 2% 2% 2% 2%;
+  padding: 2%;
+  background-color: #EAE9DB;
+  border-radius: 10%;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 10%;
+}
+
+h3 {
+  margin: 2% 0 2% 0;
+  text-align: center;
+}
+
+#essential-lee {
+  margin: 20% 4% 0 0;
+}
+
+#end-product {
+  border-bottom: 2px solid #EAE9DB;
+  padding-bottom: 4%;
+}
+
+h2 {
+  padding-bottom: 3%;
+  padding-top: 1%;
+  border-bottom: 2px solid #EAE9DB;
+}
+
+.form-left {
+  padding: 25px 0 10px 150px;
+}
+
+.phone-call {
+  color: red;
+}
+
+.form-right {
+  padding: 25px 0 10px 50px;
+}
+
+.footer-left {
+  font-size: 14px;
+}
+
+.judge {
+  opacity: 0.5;
+  font-size: 12px;
+}
+/*# sourceMappingURL=product.css.map */

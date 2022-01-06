@@ -1,0 +1,53 @@
+h2 {
+  color: green;
+}
+
+p {
+  color: green;
+}
+
+h1 {
+  color: green;
+}
+
+.lesson-1 {
+  background-color: yellow;
+  height: 40%;
+  width: 50%;
+  float: left;
+}
+
+.lesson-1 h2 {
+  color: saddlebrown;
+}
+
+.lesson-2 {
+  background-color: slategray;
+  height: 40%;
+  width: 50%;
+  float: left;
+}
+
+.lesson-2 h2 {
+  color: springgreen;
+}
+
+.lesson-2 p {
+  color: violet;
+}
+
+.lesson-3 {
+  background-color: purple;
+  height: 40%;
+  width: 50%;
+  float: left;
+}
+
+.lesson-3 h2 {
+  color: darkcyan;
+}
+
+.lesson-3 p {
+  color: aquamarine;
+}
+/*# sourceMappingURL=style.css.map */
